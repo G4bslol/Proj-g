@@ -2,7 +2,7 @@
   "name": "nest",
   "version": "0.1.0",
   "scripts": {
-    "dev": "node --import=tsx src/main.ts"
+    "dev": "node --watch --import=tsx src/main.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.3.10",
